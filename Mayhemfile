@@ -1,7 +1,6 @@
 project: mmg
 target: mmgs-03
 cmds:
-  - cmd: /repo/build/bin/mmgs_O3 /test.mesh
+  - cmd: /install/bin/mmgs_O3 @@
     env:
       DISABLE_SMOKETEST: '1'
-    filepath: /test.mesh
